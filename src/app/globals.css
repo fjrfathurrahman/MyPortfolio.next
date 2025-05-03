@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+html {
+  --cursor-color: #333
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -26,13 +30,23 @@
 }
 
 @layer base {
-  * {
-    @apply border-zinc-300;
-  }
+  * { @apply border-zinc-300 }
 
-  body {
-    @apply bg-zinc-50 text-zinc-700 font-sans;
-  }
+  body { @apply bg-zinc-50 text-zinc-800 font-sans }
+
+  h1 { @apply text-6xl sm:text-7xl font-light tracking-wider leading-tight }
+
+  h2 { @apply text-5xl sm:text-6xl font-light tracking-wider leading-tight }
+
+  h3 { @apply text-4xl sm:text-5xl font-light tracking-wider leading-tight }
+
+  h4 { @apply text-3xl sm:text-4xl font-light tracking-wider leading-tight }
+
+  h5 { @apply text-2xl sm:text-3xl font-light tracking-wider leading-tight }
+
+  h6 { @apply text-xl sm:text-2xl font-light tracking-wider leading-tight }
+
+  p { @apply text-base font-light tracking-wider leading-relaxed text-zinc-700 text-pretty }
 }
 
 ::selection { background-color: oklch(90.5% 0.182 98.111) }
