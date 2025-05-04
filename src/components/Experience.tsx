@@ -22,14 +22,14 @@ const Experience = () => {
                   <li className="font-semibold tracking-wide">
                     <Link href={exp.url}>{exp.title}</Link>
                   </li>
-                  <li className="font-mono text-sm">{exp.date}</li>
+                  <li className="font-mono text-sm list-none">{exp.date}</li>
                 </ul>
                 <p>{exp.role}</p>
               </div>
             ))}
 
             <button className="group border rounded-2xl py-3 px-8 w-max mt-12 flex items-center gap-2 cursor-pointer">
-              <span className="font-semibold text-xl tracking-wide leading-snug">
+              <span className="font-semibold text-lg tracking-wide leading-snug">
                 View My Resume
               </span>
               <ArrowRight className="transition-all duration-500 group-hover:ms-2" />
