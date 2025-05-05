@@ -16,7 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           outerStyle={{ border: "3px solid var(--cursor-color)" }}
         />
       </div>
-      <main className="container mx-auto sm:px-2 px-8">{children}</main>
+      <main className="container mx-auto sm:px-12 px-8">{children}</main>
       <Footer />
     </section>
   );

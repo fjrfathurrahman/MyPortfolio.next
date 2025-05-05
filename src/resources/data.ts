@@ -1,72 +1,26 @@
 import FunGames from "../../public/projects/FunGames.png";
 import TodoList from "../../public/projects/TodoList.png";
 import DanaMasaDepan from "../../public/projects/Dana Masa Depan.png";
+import Absensi from "../../public/projects/Absensi Manual.png";
+import { Dribbble, Github, Instagram, Linkedin, Twitter } from "lucide-react";
 export const experience = [
   {
+    title: "Coming Soon",
+    url: "#",
+    role: "Fullstack Developer",
+    date: "-",
+  },
+  {
     title: "PT Fath Synergy Group",
-    url: "https://fathsynergygroup.com/",
+    url: "https://fathforce.com/",
     role: "Fullstack Developer",
     date: "Des 2024 - Apr 2025",
   },
   {
     title: "PT Laskar Teknologi Mulia (CyberLabs)",
-    url: "https://cyberlabs.id/",
+    url: "https://cyberlabs.co.id/",
     role: "Developer",
     date: "Okt - Des 2024",
-  },
-  {
-    title: "Freelance Project — E-commerce Website",
-    url: "#",
-    role: "Frontend Developer",
-    date: "Sep - Okt 2024",
-  },
-  {
-    title: "Hackathon TechFest 2024",
-    url: "#",
-    role: "Team Leader & UI Designer",
-    date: "Ags 2024",
-  },
-  {
-    title: "PT Solusi Digital Indonesia",
-    url: "https://solusidigital.co.id/",
-    role: "Intern Fullstack Engineer",
-    date: "Jun - Ags 2024",
-  },
-  {
-    title: "BuildWith Angga Bootcamp",
-    url: "https://buildwithangga.com/",
-    role: "Fullstack Student",
-    date: "Apr - Mei 2024",
-  },
-  {
-    title: "Dicoding Academy - React Web App",
-    url: "https://www.dicoding.com/",
-    role: "React Developer",
-    date: "Mar - Apr 2024",
-  },
-  {
-    title: "Personal Project — Tabungan App",
-    url: "#",
-    role: "Fullstack Developer",
-    date: "Feb - Mar 2024",
-  },
-  {
-    title: "SMK Final Project — Inventory System",
-    url: "#",
-    role: "Backend Developer",
-    date: "Jan - Feb 2024",
-  },
-  {
-    title: "Open Source Contributor — Next UI",
-    url: "https://github.com/nextui-org/nextui",
-    role: "Contributor",
-    date: "Des 2023 - Jan 2024",
-  },
-  {
-    title: "Mentorship Program — Web Development",
-    url: "#",
-    role: "Mentee",
-    date: "Okt - Des 2023",
   },
 ];
 
@@ -74,43 +28,76 @@ export const skills = [
   { name: "HTML", color: "#e34c26" },
   { name: "CSS", color: "#264de4" },
   { name: "JavaScript", color: "#f7df1e" },
+  { name: "React.js", color: "#61dafb" },
   { name: "TypeScript", color: "#3178c6" },
+  { name: "Next.js", color: "#000000" },
+  { name: "Node.js", color: "#68a063" },
   { name: "PHP", color: "#777bb4" },
   { name: "Laravel", color: "#ff2d20" },
-  { name: "Next.js", color: "#000000" },
-  { name: "React.js", color: "#61dafb" },
-  { name: "Node.js", color: "#68a063" },
-  { name: "Express.js", color: "#000000" },
   { name: "MySQL", color: "#00758f" },
-  { name: "MongoDB", color: "#47a248" },
   { name: "Git", color: "#f1502f" },
   { name: "Tailwind CSS", color: "#38bdf8" },
   { name: "Bootstrap", color: "#563d7c" },
   { name: "Figma", color: "#f24e1e" },
-  { name: "Framer Motion", color: "#000000" },
-  { name: "Zod", color: "#3c82f6" },
-  { name: "Axios", color: "#5a29e4" },
-  { name: "React Query", color: "#ff4154" },
+];
+
+export const sosialLinks = [
+  {
+    name: "Github",
+    href: "https://github.com/fjrfathurrahman",
+    icon: Github,
+  },
+  {
+    name: "Linkedin",
+    href: "https://www.linkedin.com/in/fajarfathurrahman/",
+    icon: Linkedin,
+  },
+  {
+    name: "Instagram",
+    href: "https://instagram.com/fajarfathurrahman",
+    icon: Instagram,
+  },
+  {
+    name: "Twitter",
+    icon: Twitter,
+  },
+  {
+    name: "Dribbble",
+    icon: Dribbble,
+  }
 ];
 
 export const projects = [
   {
     image: FunGames,
-    title: 'Fun Games',
-    extra: '🏆Champion 1 UI/UX in BlaBlaBla 🏆',
-    description: 'A fun games web app made with React.js, Tailwind CSS, and Framer Motion.',
-    url: 'https://fun-games.vercel.app/',
+    title: "Fun Games",
+    extra: "🏆 Champion 1 UI/UX in BlaBlaBla 🏆",
+    description:
+      "A game platform where developers can upload games and players can download them. Built with Next.js, Tailwind CSS, Axios, React Query, and Shadcn UI.",
+    techStack: ["Next.js", "Tailwind CSS", "Axios", "React Query", "Shadcn UI"],
   },
   {
     image: TodoList,
-    title: 'TodoList',
-    description: 'A todo list web app made with React.js, Tailwind CSS, and Framer Motion.',
-    url: 'https://todo-list-ten.vercel.app/',
+    title: "TodoList",
+    description:
+      "A simple note-taking app where one project can have multiple tasks. Built using Laravel, Tailwind CSS, and Shadcn UI.",
+    github: "https://github.com/fjrfathurrahman/Laravel-TodoList",
+    techStack: ["Laravel", "Tailwind CSS", "Shadcn UI"],
   },
   {
     image: DanaMasaDepan,
-    title: 'Dana Masa Depan',
-    description: 'A todo list web app made with React.js, Tailwind CSS, and Framer Motion.',
-    url: 'https://todo-list-ten.vercel.app/',
-  }
-]
+    title: "Dana Masa Depan",
+    description:
+      "A digital savings platform designed for accounting students to manage transactions and savings data. Built with Next.js, Tailwind CSS, Axios, and React Query.",
+    url: "https://dana-masadepan.vercel.app",
+    github: "https://github.com/fjrfathurrahman/DanaMasaDepan-NextJS",
+    techStack: ["Next.js", "Tailwind CSS", "Axios", "React Query"],
+  },
+  {
+    image: Absensi,
+    title: "Student Absensi",
+    description:
+      "An attendance web app that allows students to submit presence status (present/permission) with location support. Built using Next.js, Tailwind CSS, Axios, React Query, and Hero UI.",
+    techStack: ["Next.js", "Tailwind CSS", "Axios", "React Query", "Hero UI"],
+  },
+];

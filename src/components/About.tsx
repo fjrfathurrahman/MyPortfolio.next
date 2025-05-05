@@ -1,35 +1,32 @@
 "use client";
-import { useInView } from "react-intersection-observer";
-import React from "react";
 import TitleSection from "./ui/TitleSection";
+import View from "./ui/View";
 
 const About = () => {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
   return (
-    <main ref={ref} id="about" className="py-20">
-      {inView && (
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row gap-12">
+    <View>
+        <div className="max-w-6xl mx-auto flex flex-col xl:flex-row gap-12">
           <TitleSection title="About" />
-          <p className="hover:ms-2 duration-500 select-text">
-            I&apos;m currently an Engineer at Upstatement building things for
-            the web with some awesome people. <br />I recently graduated from
-            Northeastern University after completing three awesome six-month
-            co-ops at MullenLowe U.S., Starry, and Apple Music. As a software
-            engineer, I enjoy bridging the gap between engineering and design —
-            combining my technical knowledge with my keen eye for design to
-            create a beautiful product. My goal is to always build applications
-            that are scalable and efficient under the hood while providing
-            engaging, pixel-perfect user experiences. When I&apos;m not in front
-            of a computer screen, I&apos;m probably snowboarding, cruising
-            around on my penny board, or crossing off another item on my bucket
-            list.
-          </p>
+          <div>
+            <p className="hover:ms-2 duration-500 select-text">
+              Hi! I&nbsp;m <span className="font-semibold underline underline-offset-4 decoration-sky-500">Fajar Fathurrahman Ramdahani,</span> a fresh graduate from a
+              vocational high school majoring in <span className="font-semibold underline underline-offset-4 decoration-pink-500">Software Engineering (RPL),</span>{' '}
+              born on September 25, 2006. I’m passionate about crafting and user-friendly websites, with a strong interest in
+              frontend development and web design.
+            </p>
+            <p className="hover:ms-2 duration-500 select-text mt-4">
+              My goal is to keep growing as a developer and contribute to
+              building web applications that not only function smoothly but also
+              leave a lasting visual impression.
+            </p>
+            <p className="hover:ms-2 duration-500 select-text mt-4">
+              Every line of code I write is a step forward in my journey to
+              create something impactful. I’m always eager to learn, explore new
+              tools, and face challenges that push me to become better.
+            </p>
+          </div>
         </div>
-      )}
-    </main>
+    </View>
   );
 };
 

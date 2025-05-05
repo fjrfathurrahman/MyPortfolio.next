@@ -30,7 +30,7 @@ html {
 }
 
 @layer base {
-  * { @apply border-zinc-300 }
+  * { @apply border-zinc-300 scroll-smooth }
 
   body { @apply bg-zinc-50 text-zinc-800 font-sans }
 
@@ -50,3 +50,39 @@ html {
 }
 
 ::selection { background-color: oklch(90.5% 0.182 98.111) }
+
+.emojiLaptop {
+  background-image: url('/emojis/Laptop.WebP');
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+}
+
+@keyframes waveAnimation {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  45% { transform: rotate(14deg); }
+  60% { transform: rotate(-4deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.emojiWavingHand {
+  background-image: url('/emojis/WavingHand.WebP');
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+  transition: transform 0.3s ease-in-out;
+}
+
+.emojiWavingHand:hover {
+  animation: waveAnimation 1.5s ease-in-out;
+  transform-origin: 70% 70%;
+}
