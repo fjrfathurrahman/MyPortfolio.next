@@ -18,7 +18,7 @@ To get started with development, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/fjrfathurrahman/Portfolio-v1.git
 
 # Navigate to the project directory
 cd your-repo-name
