@@ -12,13 +12,13 @@ export const experiences = [
     date: "-",
   },
   {
-    title: "PT Fath Synergy Group",
+    title: "Magang – PT Fath Synergy Group",
     url: "https://fathforce.com/",
     role: "Fullstack Developer",
     date: "Des 2024 - Apr 2025",
   },
   {
-    title: "Magang PT Laskar Teknologi Mulia (CyberLabs)",
+    title: "PKL – PT Laskar Teknologi Mulia (CyberLabs)",
     url: "https://cyberlabs.co.id/",
     role: "Developer",
     date: "Okt - Des 2024",
