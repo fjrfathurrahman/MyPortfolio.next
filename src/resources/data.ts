@@ -12,7 +12,7 @@ export const experiences = [
     date: "-",
   },
   {
-    title: "Magang – PT Fath Synergy Group",
+    title: "Internship – PT Fath Synergy Group",
     url: "https://fathforce.com/",
     role: "Fullstack Developer",
     date: "Des 2024 - Apr 2025",
