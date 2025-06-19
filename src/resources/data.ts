@@ -2,6 +2,7 @@ import FunGames from "../../public/projects/FunGames.png";
 import TodoList from "../../public/projects/TodoList.png";
 import DanaMasaDepan from "../../public/projects/Dana Masa Depan.png";
 import Absensi from "../../public/projects/Absensi Manual.png";
+import TastyFood form "../../public/projects/TastyFood.png"
 import { Dribbble, Github, Instagram, Linkedin, Twitter } from "lucide-react";
 
 export const experiences = [
