@@ -122,4 +122,12 @@ export const projects = [
       "An attendance web app that allows students to submit presence status (present/permission) with location support. Built using Next.js, Tailwind CSS, Axios, React Query, and Hero UI.",
     techStack: ["Next.js", "Tailwind CSS", "Axios", "React Query", "Hero UI"],
   },
+    {
+    image: TastyFood,
+    title: "TastyFood",
+    description: "TastyFood is a modern and responsive web application designed to showcase the best recipes.",
+    url: "https://fajarbppi24cyberwarriorcoid.vercel.app",
+    github: "https://github.com/fjrfathurrahman/fajar.bppi.24.cyberwarrior.co.id",
+    techStack: ["Next.js", "Tailwind CSS", "Framer Motion"],
+  },
 ];
