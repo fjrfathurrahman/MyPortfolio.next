@@ -2,7 +2,7 @@ import FunGames from "../../public/projects/FunGames.png";
 import TodoList from "../../public/projects/TodoList.png";
 import DanaMasaDepan from "../../public/projects/Dana Masa Depan.png";
 import Absensi from "../../public/projects/Absensi Manual.png";
-import TastyFood form "../../public/projects/TastyFood.png"
+import TastyFood form "../../public/projects/TastyFood.png";
 import { Dribbble, Github, Instagram, Linkedin, Twitter } from "lucide-react";
 
 export const experiences = [
@@ -119,11 +119,10 @@ export const projects = [
   {
     image: Absensi,
     title: "Student Absensi",
-    description:
-      "An attendance web app that allows students to submit presence status (present/permission) with location support. Built using Next.js, Tailwind CSS, Axios, React Query, and Hero UI.",
+    description: "An attendance web app that allows students to submit presence status (present/permission) with location support. Built using Next.js, Tailwind CSS, Axios, React Query, and Hero UI.",
     techStack: ["Next.js", "Tailwind CSS", "Axios", "React Query", "Hero UI"],
   },
-    {
+  {
     image: TastyFood,
     title: "TastyFood",
     description: "TastyFood is a modern and responsive web application designed to showcase the best recipes.",
